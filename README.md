@@ -20,5 +20,10 @@ The company MechaCar is wanting to review their production mechanisms to increas
 ![lot 2 sample t-test](https://user-images.githubusercontent.com/106560739/191885547-b8334b7e-3a70-4919-ab6e-b07653cec6d6.png)
 * The T-test for the suspension coils for Lot 2 shows that it is not statistically different from the population mean. The p-value is small enough (0.6072) to reject the null hypothesis.
 ![lot 3 sample t-test](https://user-images.githubusercontent.com/106560739/191885620-6b61fb6f-25a8-4e38-9b07-42a6b7de7dcd.png)
-* 
-
+* The T-test for the suspension coils for Lot 3 shows that it is statistically different from the population mean. The p-value is low enough (0.0417) to reject the null hypothesis. This lot may be need to be discarded, or at least more closely evaluated.
+## Study Design: MechaCar vs Competition
+Consumers consider a variety of factors when purchasing a vehicle. There are many factors that consumers take into consideration when evaluating a car to purchase. Increasingly, consumers have concerns over the safety of their transportation means. Therefore, the metric of safety rating may be of interest to the consumer. 
+* The metric to test would be the safety scores of MechaCar's vehicles compared to the vehicles of their competitors.
+* The null and alternative hypothesis are as follows. Ho: MechaCar's vehicle safety score is similar to those of their competitors. Ha: MechaCar's vehicle safety score is statistically above or below the scores of their competitors. 
+* The statistical test necessary for this study is two sample t-tests. 
+* The data necessary to conduct the study is the safety scoring for vehicles of MechaCar and competitors.
